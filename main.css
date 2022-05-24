@@ -2,6 +2,18 @@ header {
     background-color: aqua;
 }
 
+header > img {
+    background-color: azure;
+}
+
+nav {
+    background-color: bisque;
+}
+
+nav > a {
+    color: blueviolet;
+}
+
 main {
     background-color: azure;
 }
