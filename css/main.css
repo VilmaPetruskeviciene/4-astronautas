@@ -14,13 +14,11 @@ footer {
 
 header > img {
     float: left;
-    background-color: azure;
 }
 
 nav {
     float: right;
     margin-top: 10px;
-    background-color: bisque;
 }
 
 nav > a {
@@ -29,9 +27,53 @@ nav > a {
     font-size: 20px;
     line-height: 20px;
     text-decoration: none;
-    color: blueviolet;
+    color: #000;
 }
 
 nav > a:nth-of-type(1) {
-    background-color: red;
+    margin: 0;
+}
+
+main > div {
+    width: 40%;
+    float: left;
+}
+
+main h1 {
+    font-size: 60px;
+    font-weight: normal;
+    margin: 0;
+}
+
+main h2 {
+    font-size: 40px;
+    margin: 0;
+}
+
+main p {
+    color: #777;
+}
+
+main a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #664488;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 22px;
+    font-size: 20px;
+    line-height: 20px;
+    color: #fff;
+    border: 2px solid #664488;
+}
+
+main a:last-child {
+    background-color: #fff;
+    color: #664488;
+}
+
+main > img {
+    width: 55%;
+    float: right;
 }
