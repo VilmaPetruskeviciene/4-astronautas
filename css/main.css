@@ -7,9 +7,9 @@ main,
 footer {
     display: inline-block;
     width: 800px;
-    margin-left: calc(50% - 400px);
+    margin-left: calc((100% - 800px) / 2);
+    margin-right: calc((100% - 800px) / 2);
     margin-bottom: 30px;
-    background-color: aqua;
 }
 
 header > img {
@@ -23,7 +23,7 @@ nav {
 
 nav > a {
     float: left;
-    margin-left: 50px;
+    margin-left: 20px;
     font-size: 20px;
     line-height: 20px;
     text-decoration: none;
@@ -31,7 +31,7 @@ nav > a {
 }
 
 nav > a:nth-of-type(1) {
-    margin: 0;
+    margin-left: 0;
 }
 
 main > div {
@@ -46,12 +46,17 @@ main h1 {
 }
 
 main h2 {
-    font-size: 40px;
+    font-size: 55px;
+    letter-spacing: -2px;
     margin: 0;
 }
 
 main p {
     color: #777;
+}
+
+div > div {
+    margin-top: 30px;
 }
 
 main a {
