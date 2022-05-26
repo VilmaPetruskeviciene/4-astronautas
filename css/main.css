@@ -30,6 +30,10 @@ nav > a {
     color: #000;
 }
 
+nav > a:hover {
+    text-decoration: underline;
+}
+
 nav > a:nth-of-type(1) {
     margin-left: 0;
 }
@@ -89,9 +93,19 @@ main a:last-child {
     color: #664488;
 }
 
+main a:hover {
+    box-shadow: 0 4px 8px #664488;
+}
+
 main > img {
     width: 55%;
     float: right;
+    transition: all 5s;
+}
+
+main > img:hover {
+    transform: rotate(360deg);
+    opacity: 0;
 }
 
 footer div {
@@ -103,6 +117,10 @@ footer div > a {
     font-size: 20px;
     color: #777;
     float: left;
+}
+
+footer div > a:hover {
+    color: #664488;
 }
 
 footer div > a + a {
