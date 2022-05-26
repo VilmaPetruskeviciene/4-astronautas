@@ -78,9 +78,7 @@ main a {
     display: inline-block;
     text-decoration: none;
     background-color: #664488;
-    padding: 10px;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding: 10px 30px;
     border-radius: 22px;
     font-size: 20px;
     line-height: 20px;
