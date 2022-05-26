@@ -93,3 +93,23 @@ main > img {
     width: 55%;
     float: right;
 }
+
+footer div {
+    float: left;
+}
+
+footer div > a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #777;
+    float: left;
+}
+
+footer div > a + a {
+    margin-left: 10px;
+}
+
+footer p {
+    float: right;
+    margin: 0;
+}
