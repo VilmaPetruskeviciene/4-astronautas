@@ -51,7 +51,18 @@ main h2 {
     margin: 0;
 }
 
+main hr {
+    width: 90px;
+    float: left;
+    height: 4px;
+    background-color: #664488;
+    border: none;
+    border-radius: 2px;
+    margin: 0;
+}
+
 main p {
+    display: inline-block;
     color: #777;
 }
 
